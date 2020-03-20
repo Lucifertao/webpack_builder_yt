@@ -14,5 +14,6 @@ install:
     - cd ./test/smoke/template/
     - yarn
     - cd ../../../
+
 script:
     - yarn run lint && yarn run test
