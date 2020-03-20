@@ -12,3 +12,13 @@ test('webpack.prod.js test case', () => {
     expect(baseConfig.devtool).toEqual('none')
     expect(baseConfig.mode).toEqual('production')
 });
+test('webpack.dev.js test case', () => {
+    const baseConfig = require('../../lib/webpack.dev')
+    expect(baseConfig.devtool).toEqual('sourceMap')
+    expect(baseConfig.mode).toEqual('development')
+});
+test('webpack.dev.js test case', () => {
+    const baseConfig = require('../../lib/webpack.dev')
+    expect(baseConfig.devtool).toEqual('sourceMap')
+    expect(baseConfig.mode).toEqual('development')
+});
