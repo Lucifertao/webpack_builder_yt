@@ -10,9 +10,9 @@ cache:
 node_js: stable
 
 install: 
-    - npm install
+    - yarn
     - cd ./test/smoke/template
-    - npm install
+    - yarn
 
 script:
-    - npm run lint && npm run test
+    - yarn run lint && yarn run test
