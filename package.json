@@ -1,6 +1,6 @@
 {
   "name": "webpack-package-yt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "webpack 构建库",
   "main": "index.js",
   "directories": {
